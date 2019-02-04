@@ -14,7 +14,7 @@ var _ = API("todolist", func() {
 })
 
 var _ = Resource("todolist", func() {            
-    BasePath("/todolist")                      
+    BasePath("/todoAppGo")                      
     DefaultMedia(TodoListMedia)                  
 
     Action("show", func() {           

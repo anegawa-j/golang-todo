@@ -5,12 +5,12 @@ package main
 import (
 	"github.com/goadesign/goa"
 	"github.com/goadesign/goa/middleware"
-	"todoApp/app"
+	"github.com/anegawa-j/todoAppGo/app"
 )
 
 func main() {
 	// Create service
-	service := goa.New("todolist")
+	service := goa.New("todoAppGo")
 
 	// Mount middleware
 	service.Use(middleware.RequestID())
