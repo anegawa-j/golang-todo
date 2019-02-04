@@ -123,6 +123,7 @@
     "github.com/goadesign/goa/design",
     "github.com/goadesign/goa/design/apidsl",
     "github.com/goadesign/goa/goatest",
+    "github.com/goadesign/goa/middleware",
     "github.com/goadesign/goa/uuid",
     "github.com/spf13/cobra",
   ]
