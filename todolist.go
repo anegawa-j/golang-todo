@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/goadesign/goa"
-	"todoApp/app"
+	"github.com/anegawa-j/todoAppGo/app"
 )
 
 // TodolistController implements the todolist resource.
